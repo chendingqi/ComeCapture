@@ -4,6 +4,7 @@ namespace ScreenShot
 {
     public class AppModel : EntityBase
     {
+        public static string path = "";
         public AppModel()
         {
             _Current = this;
