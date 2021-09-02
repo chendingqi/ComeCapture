@@ -1,7 +1,7 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:control="clr-namespace:ComeCapture.Controls"
-                    xmlns:converter="clr-namespace:ComeCapture.Converters"
+                    xmlns:control="clr-namespace:ScreenShot;assembly=ScreenShot"
+                    xmlns:converter="clr-namespace:ScreenShot;assembly=ScreenShot"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
     <SolidColorBrush x:Key="BaseColor" Color="#2ecc71"/>

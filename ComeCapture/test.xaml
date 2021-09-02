@@ -1,0 +1,10 @@
+﻿<Window x:Class="ComeCapture.test"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComeCapture" xmlns:UserControl="clr-namespace:ScreenShot;assembly=ScreenShot"
+        mc:Ignorable="d" AllowsTransparency="True" WindowState="Maximized" Topmost="True" ShowInTaskbar="False" ResizeMode="NoResize" WindowStyle="None" Cursor="Cross"
+        Title="test"  KeyDown="Window_KeyDown" Background="Transparent">
+    <UserControl:ScreenUi></UserControl:ScreenUi>
+</Window>
