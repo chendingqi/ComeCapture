@@ -233,7 +233,7 @@ namespace ScreenShot
         public void OnOKNew()
         {
             var path = AppModel.path;// Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\UiBot\\creator\\Projects\\流程\\res\\";
-            FilePath = DateTime.Now.ToString("yyyyMMddhhmmss") + ".png";
+            FilePath = Guid.NewGuid().ToString("N") + @".png";
             //var sfd = new Microsoft.Win32.SaveFileDialog
             //{
             //    FileName = "截图" + DateTime.Now.ToString("yyyyMMddhhmmss"),
